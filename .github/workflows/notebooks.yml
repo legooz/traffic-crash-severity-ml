@@ -1,4 +1,4 @@
-name: Notebook checks
+name: Notebook and citation checks
 on:
   push:
   pull_request:
@@ -12,5 +12,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install nbformat ipython
+      - run: python -m pip install nbformat ipython cffconvert
       - run: python scripts/check_notebooks.py
+      - run: cffconvert --validate
