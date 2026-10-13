@@ -25,13 +25,13 @@ Read the paper through IEEE Xplore. A publisher PDF is not redistributed here.
 | `AI-UNITE-Traffic-dataset-cleaning.ipynb` | Prepare accident, person, vehicle, and impairment records. |
 | `RandomForest_CrashAnalysisProject.ipynb` | Random Forest baseline and explanation experiments. |
 | `DecisionTree_CrashAnalysisProject.ipynb` | Decision-tree classification. |
-| `MultinominalLR_CrashAnalysisProject.ipynb` | Multinomial logistic regression. |
+| [Multinomial logistic regression](notebooks/multinomial-logistic-regression.ipynb) | Multinomial logistic regression. |
 | `XGBoost_CrashAnalysisProject.ipynb` | Gradient-boosted classification experiments. |
 | `LightGBM_CrashAnalysisProject.ipynb` | LightGBM classification. |
 | `CatBoost_CrashAnalysisProject.ipynb` | CatBoost classification and SHAP explanations. |
 | `CatBoost_SHAP_Analysis.ipynb` | Separate CatBoost/SHAP experiment. |
 
-The original root notebook and `map/` / `finetuning/` material remain as earlier experiments. These are related baselines, **not the final CARE implementation**.
+The [CRSS/FARS exploration and baseline classification notebook](crss_fars_exploration_and_baselines.ipynb) and `map/` / `finetuning/` material remain as earlier experiments. These are related baselines, **not the final CARE implementation**.
 
 ## Repository scope: why some work is not included
 
