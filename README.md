@@ -31,7 +31,7 @@ Read the paper through IEEE Xplore. A publisher PDF is not redistributed here.
 | `CatBoost_CrashAnalysisProject.ipynb` | CatBoost classification and SHAP explanations. |
 | `CatBoost_SHAP_Analysis.ipynb` | Separate CatBoost/SHAP experiment. |
 
-The [CRSS/FARS exploration and baseline classification notebook](crss_fars_exploration_and_baselines.ipynb) and `map/` / `finetuning/` material remain as earlier experiments. These are related baselines, **not the final CARE implementation**.
+The [CRSS/FARS exploration and baseline classification notebook](crss_fars_exploration_and_baselines.ipynb) and the [crash map](map/map.html) / [traffic question-answering fine-tuning demo](finetuning/traffic-qa-finetuning-demo.ipynb) remain as earlier experiments. These are related baselines, **not the final CARE implementation**.
 
 ## Repository scope: why some work is not included
 
@@ -73,4 +73,4 @@ Saved outputs have been cleared. CI checks notebook structure and Python syntax,
 
 ## Attribution
 
-Research code maintained by Lars Goozen. The CARE publication is coauthored with Masoumeh Heidari Kapourchali and Kenrick Mock; paper authorship does not establish authorship of every archived file. See [NOTICE.md](NOTICE.md) for attribution and licensing status. Research/code-sharing rights should be confirmed before changing repository visibility.
+The CARE publication is coauthored with Masoumeh Heidari Kapourchali and Kenrick Mock; paper authorship does not establish authorship of every archived file. See [NOTICE.md](NOTICE.md) for attribution and licensing status. Research/code-sharing rights should be confirmed before changing repository visibility.

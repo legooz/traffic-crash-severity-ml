@@ -4,7 +4,7 @@ title: "Traffic Crash Severity: Models and Explanations"
 authors:
   - family-names: Goozen
     given-names: Lars
-url: "https://github.com/legooz/traffic"
+url: "https://github.com/legooz/traffic-crash-severity-ml"
 preferred-citation:
   type: conference-paper
   title: "CARE: Counterfactual Attention for Fatality Risk Estimation in Drivers with Non-Substance Impairments"

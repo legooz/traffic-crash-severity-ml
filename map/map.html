@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>FARS 2023 crash map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
     <script src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
@@ -21,7 +22,7 @@
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
 
-        var csvUrl = 'https://raw.githubusercontent.com/legooz/traffic/refs/heads/main/FARS2023NationalCSV_map_info.csv';
+        var csvUrl = 'https://raw.githubusercontent.com/legooz/traffic-crash-severity-ml/refs/heads/main/FARS2023NationalCSV_map_info.csv';
         var markers = L.markerClusterGroup();
         var heatData = [];
 
